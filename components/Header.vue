@@ -1,7 +1,9 @@
 <template>
-    <header>
+    <header class="flex">
         <p>this is header</p>
-        <NuxtLink to="/about">About</NuxtLink>
+        <nav>
+            <NuxtLink to="/about">About</NuxtLink>
         <NuxtLink to="/contact">contact</NuxtLink>
+        </nav>
     </header>
 </template>
